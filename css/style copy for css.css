@@ -1,0 +1,26 @@
+.canvas{
+    border:3px black solid;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    cursor: crosshair;
+}
+
+#canvas-real{
+    background-color: white;
+}
+
+#canvas-draft{
+    background-color: transparent;
+}
+body{
+    overflow:hidden;
+}
+.canvas-box{
+    height:768px;
+    margin: 5px;
+}
+
+
