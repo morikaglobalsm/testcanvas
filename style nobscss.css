@@ -1,0 +1,120 @@
+.canvas{
+    border:3px black solid;
+    position:absolute;
+    /*
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    */
+    cursor: crosshair;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+#canvas-real{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#canvas-draft{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow:hidden;
+}
+#canvas-container{
+    height: 400px;
+    width: 75%;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.clearfix {
+    clear: both;
+    *zoom: 1;
+}
+
+
+
+/* Menu  */
+
+.menu {
+    padding: 10px 20px;
+    width: 20%;
+    display: inline-block;
+    
+    
+}
+
+/* Menu Buttons  */
+
+#row1 button,
+#row2 button,
+#row3 button,
+#row4 button,
+#row5 button,
+#row6 button
+ {
+    font-size: 1vw;
+    width: 60px;
+    height: 60px;
+}
+
+
+#row1,
+#row2,
+#row3,
+#row4,
+#row5,
+#row6,
+#selectors div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*  
+
+
+
+.col-sm-4 .buttons {
+    padding: 15px;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+ */
+
+
+
+
